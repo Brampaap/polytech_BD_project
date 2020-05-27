@@ -1,0 +1,266 @@
+body.log{
+  background-image: url(https://www.bursameze.com/wp-content/uploads/2019/07/background.jpg) !important;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+body.reg{
+  background-image: url(https://sun9-42.userapi.com/c855024/v855024348/17d2b1/Dpy4FlUsk88.jpg) !important;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.pattern {
+  height: 4px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 99999;
+}
+.pattern .blue {
+  background-image: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: rgb(0, 56, 165);
+}
+.pattern .red{
+  background-image: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: rgb(213, 42, 31);
+}
+.pattern .white{
+  background-image: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: rgb(255, 255, 255);
+}
+.pattern span {
+  display: block;
+  width: 100%;
+}
+.auth-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+.auth-main .auth_div {
+  width: 360px;
+  z-index: 999;
+}
+.auth-main .helper-text {
+  color: rgb(154, 154, 154);
+  display: block;
+  vertical-align: middle;
+}
+.m-b-30, .auth-main .auth_brand, .chat-widget li, .pricing .price {
+  margin-bottom: 30px;
+}
+.m-b-10, .top-navbar .navbar-btn, .block-header, .wizard.step_icon .steps {
+  margin-bottom: 10px;
+}
+.auth-main .auth_div .card {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.auth-main .auth_brand .navbar{
+  color: rgb(255, 255, 255);
+}
+.navbar {
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+  font-family: 'Poiret One', cursive;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.auth-main .lead{
+  margin: 0;
+  margin-top: 5px;
+}
+.m-t-20, .auth-main .form-auth-small .btn, .auth-main .form-auth-small .bottom, .auth-main2 .form-auth-small .btn, .pricing .price {
+  margin-top: 20px;
+}
+.btn.btn-round {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+.form-control.round {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.form-control {
+  display: block;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: .25rem;
+  background-color: transparent;
+  border-color: rgb(57, 61, 66);
+  font-size: 14px;
+  color: rgb(119, 121, 124);
+  width: 100%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #darkgrey;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control:focus {
+  color: rgb(23, 194, 215);
+}
+.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-image: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: transparent;
+  outline-color: initial;
+  outline-style: none;
+  outline-width: initial;
+  border-color: rgb(87, 89, 93);
+}
+.particles_js #particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-image: url("file:///Users/darby/Downloads/Oculux/html/assets/css/site.min.css");
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  z-index: -1;
+}
+/*Registration*/
+
+.fancy-radio, .fancy-radio label {
+  font-weight: normal;
+}
+.fancy-radio {
+  margin-right: 10px;
+}
+.fancy-radio input[type="radio"] {
+  display: none;
+}
+.fancy-radio input[type="radio"] + span {
+  display: block;
+  cursor: pointer;
+  position: relative;
+}
+.fancy-radio input[type="radio"] + span i {
+  display: inline-block;
+  vertical-align: middle;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  position: relative;
+  bottom: 1px;
+  content: "";
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: rgba(255, 255, 255, 0.2);
+  border-right-color: rgba(255, 255, 255, 0.2);
+  border-bottom-color: rgba(255, 255, 255, 0.2);
+  border-left-color: rgba(255, 255, 255, 0.2);
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+}
+.fancy-radio.custom-color-green input[type="radio"]:checked + span i::after {
+  background-color: rgb(23, 194, 215);;
+}
+.fancy-radio input[type="radio"]:checked + span i::after {
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  display: block;
+  position: relative;
+  top: 3px;
+  left: 3px;
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: rgb(123, 132, 140);
+}
+.datepicker {
+padding-top: 10px;
+font-size: 14px;
+}
+#signin-ыtel{
+font-family: monospace;
+}
+.bad_try{
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
